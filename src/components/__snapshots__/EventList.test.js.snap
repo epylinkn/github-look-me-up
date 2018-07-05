@@ -1,0 +1,956 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When GitHub returns events renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EventList
+    events={
+        Array [
+            Object {
+              "id": 1,
+              "repo": Object {
+                "name": "foo/one",
+              },
+              "type": "PullRequestEvent",
+            },
+            Object {
+              "id": 2,
+              "repo": Object {
+                "name": "foo/two",
+              },
+              "type": "PushEvent",
+            },
+            Object {
+              "id": 3,
+              "repo": Object {
+                "name": "foo/three",
+              },
+              "type": "GollumEvent",
+            },
+          ]
+    }
+    isFetching={false}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="EventList-row"
+>
+          <div
+                    className="EventList-icon-wrapper"
+          >
+                    <div
+                              className="EventList-icon"
+                    >
+                              PullRequest
+                    </div>
+          </div>
+          <div
+                    className="EventList-detail"
+          >
+                    <h3>
+                              <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/one"
+                                        target="_blank"
+                              >
+                                        foo/one
+                              </a>
+                    </h3>
+                    a few seconds ago
+          </div>
+</li>,
+        <li
+          className="EventList-row"
+>
+          <div
+                    className="EventList-icon-wrapper"
+          >
+                    <div
+                              className="EventList-icon"
+                    >
+                              Push
+                    </div>
+          </div>
+          <div
+                    className="EventList-detail"
+          >
+                    <h3>
+                              <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/two"
+                                        target="_blank"
+                              >
+                                        foo/two
+                              </a>
+                    </h3>
+                    a few seconds ago
+          </div>
+</li>,
+        <li
+          className="EventList-row"
+>
+          <div
+                    className="EventList-icon-wrapper"
+          >
+                    <div
+                              className="EventList-icon"
+                    >
+                              Gollum
+                    </div>
+          </div>
+          <div
+                    className="EventList-detail"
+          >
+                    <h3>
+                              <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/three"
+                                        target="_blank"
+                              >
+                                        foo/three
+                              </a>
+                    </h3>
+                    a few seconds ago
+          </div>
+</li>,
+      ],
+      "className": "EventList",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="EventList-icon-wrapper"
+>
+              <div
+                            className="EventList-icon"
+              >
+                            PullRequest
+              </div>
+</div>,
+            <div
+              className="EventList-detail"
+>
+              <h3>
+                            <a
+                                          className="unstyled"
+                                          href="https://github.com/foo/one"
+                                          target="_blank"
+                            >
+                                          foo/one
+                            </a>
+              </h3>
+              a few seconds ago
+</div>,
+          ],
+          "className": "EventList-row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="EventList-icon"
+>
+                PullRequest
+</div>,
+              "className": "EventList-icon-wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PullRequest",
+                "className": "EventList-icon",
+              },
+              "ref": null,
+              "rendered": "PullRequest",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  <a
+                                    className="unstyled"
+                                    href="https://github.com/foo/one"
+                                    target="_blank"
+                  >
+                                    foo/one
+                  </a>
+</h3>,
+                "a few seconds ago",
+              ],
+              "className": "EventList-detail",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="unstyled"
+                    href="https://github.com/foo/one"
+                    target="_blank"
+>
+                    foo/one
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "foo/one",
+                    "className": "unstyled",
+                    "href": "https://github.com/foo/one",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "foo/one",
+                  "type": "a",
+                },
+                "type": "h3",
+              },
+              "a few seconds ago",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="EventList-icon-wrapper"
+>
+              <div
+                            className="EventList-icon"
+              >
+                            Push
+              </div>
+</div>,
+            <div
+              className="EventList-detail"
+>
+              <h3>
+                            <a
+                                          className="unstyled"
+                                          href="https://github.com/foo/two"
+                                          target="_blank"
+                            >
+                                          foo/two
+                            </a>
+              </h3>
+              a few seconds ago
+</div>,
+          ],
+          "className": "EventList-row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="EventList-icon"
+>
+                Push
+</div>,
+              "className": "EventList-icon-wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Push",
+                "className": "EventList-icon",
+              },
+              "ref": null,
+              "rendered": "Push",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  <a
+                                    className="unstyled"
+                                    href="https://github.com/foo/two"
+                                    target="_blank"
+                  >
+                                    foo/two
+                  </a>
+</h3>,
+                "a few seconds ago",
+              ],
+              "className": "EventList-detail",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="unstyled"
+                    href="https://github.com/foo/two"
+                    target="_blank"
+>
+                    foo/two
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "foo/two",
+                    "className": "unstyled",
+                    "href": "https://github.com/foo/two",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "foo/two",
+                  "type": "a",
+                },
+                "type": "h3",
+              },
+              "a few seconds ago",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="EventList-icon-wrapper"
+>
+              <div
+                            className="EventList-icon"
+              >
+                            Gollum
+              </div>
+</div>,
+            <div
+              className="EventList-detail"
+>
+              <h3>
+                            <a
+                                          className="unstyled"
+                                          href="https://github.com/foo/three"
+                                          target="_blank"
+                            >
+                                          foo/three
+                            </a>
+              </h3>
+              a few seconds ago
+</div>,
+          ],
+          "className": "EventList-row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="EventList-icon"
+>
+                Gollum
+</div>,
+              "className": "EventList-icon-wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gollum",
+                "className": "EventList-icon",
+              },
+              "ref": null,
+              "rendered": "Gollum",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  <a
+                                    className="unstyled"
+                                    href="https://github.com/foo/three"
+                                    target="_blank"
+                  >
+                                    foo/three
+                  </a>
+</h3>,
+                "a few seconds ago",
+              ],
+              "className": "EventList-detail",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="unstyled"
+                    href="https://github.com/foo/three"
+                    target="_blank"
+>
+                    foo/three
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "foo/three",
+                    "className": "unstyled",
+                    "href": "https://github.com/foo/three",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "foo/three",
+                  "type": "a",
+                },
+                "type": "h3",
+              },
+              "a few seconds ago",
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="EventList-row"
+>
+            <div
+                        className="EventList-icon-wrapper"
+            >
+                        <div
+                                    className="EventList-icon"
+                        >
+                                    PullRequest
+                        </div>
+            </div>
+            <div
+                        className="EventList-detail"
+            >
+                        <h3>
+                                    <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/one"
+                                                target="_blank"
+                                    >
+                                                foo/one
+                                    </a>
+                        </h3>
+                        a few seconds ago
+            </div>
+</li>,
+          <li
+            className="EventList-row"
+>
+            <div
+                        className="EventList-icon-wrapper"
+            >
+                        <div
+                                    className="EventList-icon"
+                        >
+                                    Push
+                        </div>
+            </div>
+            <div
+                        className="EventList-detail"
+            >
+                        <h3>
+                                    <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/two"
+                                                target="_blank"
+                                    >
+                                                foo/two
+                                    </a>
+                        </h3>
+                        a few seconds ago
+            </div>
+</li>,
+          <li
+            className="EventList-row"
+>
+            <div
+                        className="EventList-icon-wrapper"
+            >
+                        <div
+                                    className="EventList-icon"
+                        >
+                                    Gollum
+                        </div>
+            </div>
+            <div
+                        className="EventList-detail"
+            >
+                        <h3>
+                                    <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/three"
+                                                target="_blank"
+                                    >
+                                                foo/three
+                                    </a>
+                        </h3>
+                        a few seconds ago
+            </div>
+</li>,
+        ],
+        "className": "EventList",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="EventList-icon-wrapper"
+>
+                <div
+                                className="EventList-icon"
+                >
+                                PullRequest
+                </div>
+</div>,
+              <div
+                className="EventList-detail"
+>
+                <h3>
+                                <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/one"
+                                                target="_blank"
+                                >
+                                                foo/one
+                                </a>
+                </h3>
+                a few seconds ago
+</div>,
+            ],
+            "className": "EventList-row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="EventList-icon"
+>
+                  PullRequest
+</div>,
+                "className": "EventList-icon-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PullRequest",
+                  "className": "EventList-icon",
+                },
+                "ref": null,
+                "rendered": "PullRequest",
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/one"
+                                        target="_blank"
+                    >
+                                        foo/one
+                    </a>
+</h3>,
+                  "a few seconds ago",
+                ],
+                "className": "EventList-detail",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="unstyled"
+                      href="https://github.com/foo/one"
+                      target="_blank"
+>
+                      foo/one
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "foo/one",
+                      "className": "unstyled",
+                      "href": "https://github.com/foo/one",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": "foo/one",
+                    "type": "a",
+                  },
+                  "type": "h3",
+                },
+                "a few seconds ago",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="EventList-icon-wrapper"
+>
+                <div
+                                className="EventList-icon"
+                >
+                                Push
+                </div>
+</div>,
+              <div
+                className="EventList-detail"
+>
+                <h3>
+                                <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/two"
+                                                target="_blank"
+                                >
+                                                foo/two
+                                </a>
+                </h3>
+                a few seconds ago
+</div>,
+            ],
+            "className": "EventList-row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="EventList-icon"
+>
+                  Push
+</div>,
+                "className": "EventList-icon-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Push",
+                  "className": "EventList-icon",
+                },
+                "ref": null,
+                "rendered": "Push",
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/two"
+                                        target="_blank"
+                    >
+                                        foo/two
+                    </a>
+</h3>,
+                  "a few seconds ago",
+                ],
+                "className": "EventList-detail",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="unstyled"
+                      href="https://github.com/foo/two"
+                      target="_blank"
+>
+                      foo/two
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "foo/two",
+                      "className": "unstyled",
+                      "href": "https://github.com/foo/two",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": "foo/two",
+                    "type": "a",
+                  },
+                  "type": "h3",
+                },
+                "a few seconds ago",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="EventList-icon-wrapper"
+>
+                <div
+                                className="EventList-icon"
+                >
+                                Gollum
+                </div>
+</div>,
+              <div
+                className="EventList-detail"
+>
+                <h3>
+                                <a
+                                                className="unstyled"
+                                                href="https://github.com/foo/three"
+                                                target="_blank"
+                                >
+                                                foo/three
+                                </a>
+                </h3>
+                a few seconds ago
+</div>,
+            ],
+            "className": "EventList-row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="EventList-icon"
+>
+                  Gollum
+</div>,
+                "className": "EventList-icon-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Gollum",
+                  "className": "EventList-icon",
+                },
+                "ref": null,
+                "rendered": "Gollum",
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    <a
+                                        className="unstyled"
+                                        href="https://github.com/foo/three"
+                                        target="_blank"
+                    >
+                                        foo/three
+                    </a>
+</h3>,
+                  "a few seconds ago",
+                ],
+                "className": "EventList-detail",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="unstyled"
+                      href="https://github.com/foo/three"
+                      target="_blank"
+>
+                      foo/three
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "foo/three",
+                      "className": "unstyled",
+                      "href": "https://github.com/foo/three",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": "foo/three",
+                    "type": "a",
+                  },
+                  "type": "h3",
+                },
+                "a few seconds ago",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

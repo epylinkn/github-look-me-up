@@ -1,0 +1,23 @@
+.SearchBar {
+  font-size: 1.5em;
+}
+
+.SearchBar-label {
+  font-weight: bold;
+}
+
+.SearchBar-submit {
+  margin: 10px auto;
+  display: block;
+  width: 20vw;
+}
+
+.SearchBar-title {
+  margin: 30px 10%;
+  border-bottom: 3px dotted #dddddd;
+}
+
+.SearchBar-username {
+  font-weight: bold;
+  text-decoration: underline;
+}

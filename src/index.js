@@ -1,8 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import registerServiceWorker from './registerServiceWorker'
+import Root from './containers/Root'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import Typography from 'typography'
+import theme from 'typography-theme-github'
+import './index.css'
+
+const typography = new Typography(theme)
+typography.injectStyles()
+
+render(<Root />, document.getElementById('root'))
+
+registerServiceWorker()

@@ -1,0 +1,45 @@
+.EventList {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-indent: 0;
+}
+
+@media (min-width: 768px) {
+  .EventList {
+    width: 60%;
+  }
+}
+
+.EventList-row {
+  list-style: none;
+  min-height: 120px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.EventList-icon-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: #c0ffee;
+  border-radius: 50%;
+  float: left;
+}
+
+.EventList-icon {
+  margin: 0 auto;
+  color: black;
+}
+
+.EventList-detail {
+  padding-left: 120px;
+}
+
+.EventList-scratch {
+  width: 4em;
+  margin: 30px auto;
+  opacity: .5;
+}
